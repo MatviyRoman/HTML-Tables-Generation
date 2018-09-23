@@ -23,49 +23,58 @@
                         HTML Tables Generation
                     </h1>
                     <div id="content" class="col-xs-12 col-sm-12 col-md-12">
-                        <form class="form-signin" role="form">
-                            <!-- <h2 class="form-signin-heading">HTML Tables Generation</h2> -->
-                            <label for="inputNumber" class="sr-only">Rows</label>
-                            <input type="number" id="inputTd" class="form-control" placeholder="Rows" required autofocus>
-                            <label for="inputNumber" class="sr-only">Coll</label>
-                            <input type="number" id="inputTr" class="form-control" placeholder="Coll" required>
-                            <button id="btnGeneration" class="btn btn-lg btn-primary btn-block" type="submit">Generation</button>
-                        </form>
+                        <p>
+                            Coll:  
+                            <input type="number" value="" id="inputTr">
+                            <br>
+                            Rows:
+                            <input type="number" value="" id="inputTd">
+                            <br>
+                            <button id="btn">Generation</button>
+                        </p>
                         <div id="result">
                             <p>
                                 your result
                             </p>
+                            Coll: <p class="resultTr"></p>
                             Rows: <p class="resultTd"></p>
-                            Cols: <p class="resultTr"></p>
                         </div>
-                        <div id="tablesCode">
+                        <div id="tablesResult">
                             <p>
                                 HTML Tables
                             </p>
                             <p>
-                                <textarea name="text" id="tablSource" cols="30" rows="10">
-&lt;table&gt;
-    &lt;tr&gt;
-
-    &lt;/tr&gt;                               
-&lt;/table&gt;
+                                <textarea name="text" placeholder="tan" id="tablesSource" cols="30" rows="10">
                                 </textarea>
                             </p>
-                        </div>
-                        <div id="htmlTables">    
+                            <div id="tablesCode">    
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="container">
+                    <div class="row">
+                        <footer>
+                            <a href="https://github.com/MatviyRoman">
+                                My Project in GitHub
+                            </a>
+                            <br>
+                            <p>
+                                &copy; 2018 MatviyRoman
+                            </p>
+                            <div class="validator">
+                                <p>
+                                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                        <img style="border:0;width:88px;height:31px"
+                                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                        alt="Valid CSS!" />
+                                    </a>
+                                </p>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
             </div>
-            <div class="container">
-                <footer>
-                    <a href="https://github.com/MatviyRoman">My Project in GitHub</a>
-                    <br>
-                    <p>
-                        &copy; 2018 MatviyRoman
-                    </p>
-                </footer>
-            </div>
-        </div>   
+        </div>
     </body>
 </html>

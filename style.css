@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    cursor: pointer;
+}
+
+h1 {
+    max-width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    background-color: black;
+    background-size: 30%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+h1 .setting {
+    max-width: 100%;
+    clear: both;
+}
+
+#content {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#content .form-signin {
+    max-width: 30%;
+}
+
+#content input:not(#inputTd) {
+    margin-left: 11px;
+    margin-bottom: 5px;
+    border-top: 1px solid gray;
+}
+
+#content #btn {
+    margin-top: 5px;
+    margin-left: 43px;
+}
+
+#content #result {
+    display: none;
+    position: absolute;
+    top: -140px;
+    left: 35%;
+    max-width: 70%;
+}
+
+#content #result p {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#content #tablesResult {
+    display: none;
+    margin-top: 20px;
+    max-width: 95%;
+    height: 150px;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#content #tablesResult p {
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#content #tablesResult textarea {
+    width: 95%;
+    height: 100px;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+#content #tablesCode {
+    color: black;
+}
+
+#content #tablesCode table,
+#content #tablesCode tr,
+#content #tablesCode th,
+#content #tablesCode td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#content #tablesCode td {
+    padding: 10px;
+}
+
+footer {
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    margin-top: 30px;
+    text-align: right;
+}
